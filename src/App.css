@@ -1,5 +1,41 @@
+*{
+  margin: auto;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #141518;
+  color: #eee;
+}
+
+.table{
+  width: 80%;
+  border-left: 1px solid #eee;
+  border-right: 1px solid #eee;
+  border-radius: 3px;
+ 
+  
+}
+
+.caption{
+  padding: 20px;
+ 
+  font-size: 20px;
+  font-weight: 300;
+}
+
+th{
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  border-collapse: collapse;
+  
+}
+
+
+
 .App {
   text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .App-logo {
